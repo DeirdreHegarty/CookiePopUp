@@ -1,0 +1,34 @@
+#cookiePopUp{
+	cursor:default;
+	min-height:74px;
+	opacity: 0.8;
+	background: rgba(0,0,0,0.57);
+	font-family: 'Open Sans', Light;
+	font-size: 17px;
+	color: #FFFFFF;
+	line-height: 74px;
+}
+.cookieP{
+	z-index:1;
+	display:inline-block;
+}
+.cookieI{
+	cursor:pointer;
+	z-index:2;
+	margin-top: 20px;
+	margin-right:10px;
+}
+#boldFont{
+	font-weight: bold;
+}
+@media(max-width:1024px){
+		#cookiePopUp{
+		padding-top:10px;
+		line-height: 20px;
+	}
+	.cookieI{
+		z-index:2;
+		margin-top: 10px;
+		margin-right:10px;
+	}
+}
